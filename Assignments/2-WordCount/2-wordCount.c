@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------------------------ 
  *   Author         : HARISH
  *   Date           : Thu Mar 27
- *   File           : my_copy.c
+ *   File           : 2-wordcount.c
  *   Title          : word count implementation using SystemCalls
  *   Description    : This program counts the characters, words, lines in a 
  *                    file and prints the output in the stdout file.
