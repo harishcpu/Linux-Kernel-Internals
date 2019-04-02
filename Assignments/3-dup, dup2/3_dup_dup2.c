@@ -28,15 +28,21 @@ int main(int argc, char **argv)
                exit(2);
        }
 
+#if 1
        /* close the stdout file descriptor */
        close(1);
-       /* duplicates fd1 in lowest possible ___ file descriptor */
+       /* duplicates fd1 with the lowest possible ___ file descriptor */
        int n_fd = dup(fd1);
 
        /* print the contents */
        write(n_fd, "Hello, ", 7);
        write(fd1, "World!\n", 7);
        printf("Bye.\n");
+#else
+        dup2(fd1, 1);
+        write(fd1, "Hello, ", 7);
+        printf("World!\n");
+#endif
 
        return 0;
 }
