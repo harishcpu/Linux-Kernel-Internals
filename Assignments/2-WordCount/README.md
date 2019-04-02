@@ -1,1 +1,1 @@
-This program counts the characters, words, lines in a file and prints the output in the stdout file.
+This program gives the count of lines, words and bytes of a file and prints the output in file descriptor 1.
