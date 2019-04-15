@@ -1,7 +1,7 @@
 /* ------------------------------------------------------------------------------ 
  *   Author         : HARISH
  *   Date           : Mon Apr 8
- *   File           : pipe.c
+ *   File           : three_pipes.c
  *   Title          : pipe system call
  *   Description    : This program executes a command in one process and pipes 
  *                    it to another process and prints the output.
