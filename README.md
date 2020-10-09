@@ -1,2 +1,2 @@
 # Linux-Kernel-Internals
-I am also learning it. Let's see what we can learn...
+Repository for Linux Kernal Internal topics
